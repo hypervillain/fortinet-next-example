@@ -1,0 +1,1 @@
+export { default as CallToAction2 } from './CallToAction'
