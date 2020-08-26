@@ -8,8 +8,8 @@ I bootstrapped a SliceMachine project (canary version of Prismic) running:
 npx prismic-cli@beta sm --setup
 ````
 
-I then whent to my Prismic dashboard and open the newly created repo.
-I then went to my Documents and created a document of type `Page`, with uid `my-page`.
+I then went to my Prismic dashboard and opened the newly created repo.
+Inside my Documents page, I created a doc of type `Page`, with uid `my-page`.
 
 I copy-pasted [this code](https://www.slicemachine.dev/documentation/next/next-slicezone) to `/pages/[uid].js`, ran `yarn dev` and accessed `localhost:3000/my-page`.
 
